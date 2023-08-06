@@ -1,0 +1,28 @@
+body {
+background: hsl(212, 45%, 89%);
+padding: 35px 15px 35px 15px;
+font-family: 'outfit', Sans-Serif;
+}
+#container {
+background: hsl(0, 0%, 100%);
+padding: 10px;
+border-radius: 15px;
+}
+#img {
+max-height: 70%;
+max-width: 100%;
+border-radius: 15px;
+}
+.text-content {
+margin: 10px;
+font-size: 15px;
+}
+p {
+color: hsl(220, 15%, 55%);
+font-family: 'outfit', Sans-Serif;
+text-align: center;
+}
+h2 {
+color: hsl(218, 44%, 22%);
+text-align: center;
+}
