@@ -6,12 +6,15 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+height: 100vh;
 }
 #container {
 background: hsl(0, 0%, 100%);
 padding: 10px;
 border-radius: 15px;
-height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
 #img {
 max-width: 100%; 
@@ -20,7 +23,6 @@ border-radius: 15px;
 .text-content {
 margin: 10px;
 font-size: 15px;
-height: auto;
 }
 p {
 color: hsl(220, 15%, 55%);
